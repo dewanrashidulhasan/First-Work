@@ -2,18 +2,24 @@ body {
     /* margin: 0;
     padding: 0; */
     font-family: Inter, sans-serif; 
+    
 }
+
 
 /* navigation section */
 .navigation-section{
+    padding: 55px 160px 0 160px;
+    justify-content: center;
+}
+.navigation-div{
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
+    align-items: center;
+    max-width: 1550px;
     max-height: 52px;
-    left: 160px;
-    top: 55px;
+      
 }
-.navigation-section a{
+.navigation-div a{
     text-decoration: none;
 }
 .web-name{
@@ -23,38 +29,101 @@ body {
     color: #0F0F0F;
     font-weight: 700;
 }
-.navigation-section ul{
+.navigation-div ul{
     display: flex;
     list-style-type: none;
     gap: 48px;
-    
+    justify-content: space-between;
     max-width: 351px;
     max-height: 21px;
 }
-.navigation-section li{
+.navigation-div li{
     font-weight: 44px;
-    font-size: 21px;
+    font-size: 20px;
     opacity: 70%;  
     line-height: 100%;
     font-weight: 500;
-    word-spacing: 0%;
+    letter-spacing: 0%;
     color: #0F0F0F;
 
 }
-.navigation-section button{
-    width: 156px;
-    height: 52px;
+.navigation-div button{
+    width: 160px;
+    height: 56px;
     gap: 48px;
     border-radius: 99px;
     border: #D8FB78;
     padding: 13px 36px;
     background-color: #D8FB78;
-
     font-weight: 84px;
     font-size: 20px;
     line-height: 100%;
     font-weight: 700;
-    word-spacing: 0%;
+    letter-spacing: 0%;
     color: #0F0F0F;
+    cursor: pointer;
+}
+
+
+/* banner details */
+.text-one{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: #0F0F0F;
+    letter-spacing: 0%;
+}
+.text-two{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    color: #09080FB2;
+    letter-spacing: 0%;
+}
+.details-banner{
+    display: flex;
+    gap: 180px;
+    padding: 120px 160px 0 160px;
+    
+}
+.details-banner button{
+    width: 195px;
+    height: 56px;
+    gap: 48px;
+    border-radius: 99px;
+    border: #D8FB78;
+    padding: 13px 36px;
+    background-color: #D8FB78;
+    font-weight: 84px;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 0%;
+    color: #0F0F0F;
+    cursor: pointer;
+}
+.details-banner img{
+    width: 594px;
+    height: 540px;
+    border-radius: 32px;
+}
+
+
+/* best selling section */
+
+.selling-text-one{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.selling-text-two{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #09080FB2;
+}
+.best-selling-section-div{
     
 }
