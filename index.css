@@ -113,17 +113,29 @@ body {
 
 .selling-text-one{
     font-weight: 700;
-    font-size: 42px;
+    font-size: 40px;
     line-height: 100%;
     letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
 }
 .selling-text-two{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0%;
-    color: #09080FB2;
-}
-.best-selling-section-div{
     
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0%;
+        color: #09080FB2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 75%;
+        text-align: center; 
+        flex-direction: column; 
+    
+    
+}
+
+.best-selling-section-div{
+   
 }
