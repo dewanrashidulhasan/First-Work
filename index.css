@@ -28,6 +28,7 @@ body {
     font-size: 42px;
     color: #0F0F0F;
     font-weight: 700;
+    
 }
 .navigation-div ul{
     display: flex;
@@ -216,3 +217,90 @@ display: flex;
 justify-content: center;
 gap: 60px;
 }
+/* footer section */
+
+.footer {
+    background-color: #f4f6f8;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-all {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-width: 800px;
+    width: 100%;
+  }
+  .footer-all a{
+    text-decoration: none;
+  }
+  
+  .web-name {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin: 0;
+  }
+  
+  .footer-menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-menu li {
+    font-size: 16px;
+    color: #0f0f0f;
+    opacity: 0.7;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .footer-divider {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .subscribe {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .subscribe input {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 999px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .subscribe button {
+    background-color: #d8fb78;
+    border: none;
+    border-radius: 999px;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f0f0f;
+    cursor: pointer;
+  }
+  
