@@ -137,17 +137,18 @@ body {
 }
 
 .best-selling-section{
-   padding-top: 60px;
+   padding: 60px 0 60px 0;
 }
 .selling-items{
         max-width: 411px;
-        max-height: 576px;
+        height: 576px;
         border: 1px solid #0F0F0F1A;
         border-radius: 24px;
         padding: 24px;
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: #E9E9E9;
 }
 .selling-items img{
     width: 363px;
@@ -171,11 +172,17 @@ body {
 .favourite-icon{
     max-width: 61px;
     max-height: 61px;  
+    cursor: pointer;
 }
 .cart-fav{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.carts-img{
+    max-width: 363px;
+    height: 300px;
+    border: 1px solid #0F0F0F1A;
 }
 .cart-fav-button{
     padding: 14px 32px;
@@ -187,6 +194,7 @@ body {
     font-size: 19px;
     line-height: 100%;
     letter-spacing: 0%;
+    cursor: pointer;
     
 }
 .selling-items-buy{
@@ -200,10 +208,11 @@ body {
     font-size: 19px;
     line-height: 100%;
     letter-spacing: 0%;
-    margin-bottom: 10px;  
+    margin-bottom: 10px; 
+    cursor: pointer; 
 }
 .best-selling-items{
 display: flex;
 justify-content: center;
-gap: 30px;
+gap: 60px;
 }
