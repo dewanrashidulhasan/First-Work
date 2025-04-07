@@ -303,4 +303,98 @@ gap: 60px;
     color: #0f0f0f;
     cursor: pointer;
   }
+  /* ===================== Responsive for Tablets ===================== */
+@media (max-width: 992px) {
+  .navigation-section {
+    padding: 30px 40px;
+  }
+
+  .details-banner {
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px 40px;
+    text-align: center;
+  }
+
+  .details-banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .selling-items {
+    width: 90%;
+    margin: auto;
+  }
+
+  .best-selling-items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ===================== Responsive for Mobile Devices ===================== */
+@media (max-width: 600px) {
+  .navigation-div {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .navigation-div ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navigation-div button {
+    width: 100%;
+  }
+
+  .text-one {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .text-two {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .details-banner button {
+    width: 100%;
+  }
+
+  .selling-items {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+  }
+
+  .selling-items img {
+    width: 100%;
+    height: auto;
+  }
+
+  .selling-items-buy,
+  .cart-fav-button {
+    width: 100%;
+  }
+
+  .footer-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .subscribe {
+    flex-direction: column;
+  }
+
+  .subscribe input {
+    width: 100%;
+  }
+
+  .subscribe button {
+    width: 100%;
+  }
+}
+
   
